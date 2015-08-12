@@ -1,0 +1,2 @@
+Version 0.1
+- Play videos from http://www.mangas-streaming.fr/
