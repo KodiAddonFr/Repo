@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.touzai-sekai.fr"
+       name="touzai-sekai.fr"
+       version="0.1"
+       provider-name="albls">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.common.plugin.cache" version="0.9.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+             library="Default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">All the videos from touzai-sekai.fr</summary>
+    <description lang="en">Plugin to watch the videos from touzai-sekai.fr
+    </description>
+    <summary lang="fr">Toutes les vidéos de touzai-sekai.fr</summary>
+    <description lang="fr">Plugin pour visualiser les vidéos du site touzai-sekai.fr 
+    </description>
+    <platform>all</platform>
+  </extension>
+</addon>
