@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.anime-ultime.net"
+       name="anime-ultime.net"
+       version="0.1"
+       provider-name="albls">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+             library="Default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">All the videos from anime-ultime.net</summary>
+    <description lang="en">Plugin to watch the videos from anime-ultime.net
+    </description>
+    <summary lang="fr">Toutes les vidéos d'anime-ultime.net</summary>
+    <description lang="fr">Plugin pour visualiser les vidéos du site anime-ultime.net 
+    </description>
+    <platform>all</platform>
+  </extension>
+</addon>
